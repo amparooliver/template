@@ -3,22 +3,21 @@ import { createGlobalStyle } from "styled-components";
 export const Styles = createGlobalStyle`
 
     @font-face {
-        font-family: "Motiva Sans Light";
-        src: url("/fonts/Motiva-Sans-Light.ttf") format("truetype");
+        font-family: "Inter Sans Bold";
+        src: url("/fonts/Inter-Bold.ttf") format("truetype");
         font-style: normal;
     }
-
+    
     @font-face {
-        font-family: "Motiva Sans Bold";
-        src: url("/fonts/Motiva-Sans-Bold.ttf") format("truetype");
+        font-family: "Bebas Neue";
+        src: url("/fonts/BebasNeue-Regular.ttf") format("truetype");
         font-style: normal;
     }
-
 
     body,
     html,
     a {
-        font-family: 'Motiva Sans Light', sans-serif;
+        font-family: 'Inter Sans Bold', sans-serif;
     }
 
 
@@ -32,7 +31,7 @@ export const Styles = createGlobalStyle`
     }
 
     a:hover {
-        color: #18216d;
+        color: #15191C;
     }
 
     input,
@@ -47,7 +46,7 @@ export const Styles = createGlobalStyle`
 
         :focus-within {
             background: none;
-            box-shadow: #2e186a 0px 0px 0px 1px;
+            box-shadow: #88B8DEs 0px 0px 0px 1px;
         }
     }
 
@@ -57,8 +56,8 @@ export const Styles = createGlobalStyle`
     h4,
     h5,
     h6 {
-        font-family: 'Motiva Sans Bold', serif;
-        color: #18216d;
+        font-family: 'Inter Sans Bold', sans-serif;
+        color: #88B8DE;
         font-size: 56px;
         line-height: 1.18;
 
@@ -70,9 +69,24 @@ export const Styles = createGlobalStyle`
           font-size: 32px;
         }
     }
+    .titulo {
+        font-family: 'Bebas Neue', sans-serif;
+        color: #88B8DE;
+        font-size: 250px;
+        line-height: 1.18;
+        letter-spacing: 0.2rem;
+
+        @media only screen and (max-width: 890px) {
+          font-size: 150px;
+        }
+      
+        @media only screen and (max-width: 414px) {
+          font-size: 70px;
+        }
+    }
 
     p {
-        color: #18216d;
+        color: #88B8DE;
         font-size: 21px;        
         line-height: 1.41;
     }
@@ -84,10 +98,10 @@ export const Styles = createGlobalStyle`
     a {
         text-decoration: none;
         outline: none;
-        color: #2E186A;
+        color: #88B8DE;
 
         :hover {
-            color: #2e186a;
+            color: #88B8DE;
         }
     }
     

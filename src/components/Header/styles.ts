@@ -54,12 +54,12 @@ export const NotHidden = styled("div")`
 export const Menu = styled("h5")`
   font-size: 1.5rem;
   font-weight: 600;
-  text-align: center;
+  text-align: right;
 `;
 
 export const CustomNavLinkSmall = styled(NavLink)`
-  font-size: 1.2rem;
-  color: #18216d;
+  font-size: 1.5rem;
+  color: #88B8DE;
   transition: color 0.2s ease-in;
   margin: 0.5rem 2rem;
 
@@ -88,8 +88,8 @@ export const Span = styled("span")`
   &:hover,
   &:active,
   &:focus {
-    color: rgb(255, 130, 92);
+    color: #15191C;
     text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
+    text-decoration: #15191C wavy underline;
   }
 `;
